@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <name>jcv_temporal_denoising</name>
+  <version>0.0.1</version>
+  <description>
+	  This package is for denoising spatial-temporal noise in kinect frames.
+	  The implementation is based on:
+	  "Kinect-like Depth Denoising"
+	  DOI: 10.1109/ISCAS.2012.6272078
+  </description>
+
+  <maintainer email="va.azizi@gmail.com">Vahid Azizi</maintainer>
+  
+  <license>TODO</license>
+
+  <url type="website">http://robotics.jacobs-university.de/</url>
+
+  <url type="repository">TODO</url>
+
+  <author email="va.azizi@gmail.com">Vahid Azizi</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+
+  <export></export>
+</package>

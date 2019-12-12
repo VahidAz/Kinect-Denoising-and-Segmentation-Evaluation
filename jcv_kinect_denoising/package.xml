@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+  <name>jcv_kinect_denoising</name>
+  <version>0.0.1</version>
+  <description>
+	  This is a metapackage.
+	  This metapackage includes jcv_hole_filling and jcv_temporal_denoising package.
+	  jcv_hole_filling is for filling invalid pixels and denoising spatial noise in kinect frames.
+	  jcv_bilateral_filter is for denoising spatial-temporal noise in kinect frames.
+  </description>
+
+  <maintainer email="va.azizi@gmail.com">Vahid Azizi</maintainer>
+
+  <license>TODO</license>
+  
+  <url type="website">http://robotics.jacobs-university.de/</url>
+
+  <url type="repository">TODO</url>
+  
+  <author email="va.azizi@gmail.com">Vahid Azizi</author> 
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>jcv_hole_filling</run_depend>
+  <run_depend>jcv_temporal_denoising</run_depend>
+
+
+  <export>
+	<metapackage />
+  </export>
+</package>

@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="jcv_temporal_denoising" type="jcv_temporal_denoising" name="jcv_temporal_denoising">
+
+		<param name="variance"       type="double"  value="2" />
+		<param name="spatialRadius"  type="int"     value="3" />
+		<param name="temporalRadius" type="int"     value="3" />
+		<param name="sigmaS"         type="int"     value="2" />
+		<param name="sigmaR"         type="int"     value="2" />
+	</node>
+</launch>

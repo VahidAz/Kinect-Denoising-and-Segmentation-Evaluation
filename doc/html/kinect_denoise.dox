@@ -1,0 +1,22 @@
+/**
+ * @file kinect_denoise.dox
+ * @date 2015
+ * @author Vahid Azizi
+ */
+
+/**
+ * @mainpage Kinect Denoising Documentation
+ *
+ * @section into Introduction
+ *
+ * This package is for kinect denoising.
+ * It includes two packages, jcv_hole_filling and jcv_temporal_denosing.
+ * jcv_hole_filling is for filling invalid pixels in kinect frames and refining them by Bilateral Filter.
+ * jcv_temporal_denoising is for spatial-temporal denoising by considering around frames plus pixels in target frame.
+ *
+ * @subsection ref References
+ *
+ * @li <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6335696" target="_blank">Depth hole filling using the depth distribution of neighboring regions of depth holes in the Kinect sensor</a>
+ *
+ * @li <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6272078&tag=1" target="_blank">Kinect-like depth denoising</a>
+ */

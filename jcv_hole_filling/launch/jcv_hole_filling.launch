@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="jcv_hole_filling" type="jcv_hole_filling" name="jcv_hole_filling">
+
+		<param name="nanFlag"       type="bool" value="false" />
+		<param name="spatialRadius" type="int"  value="5"     />
+		<param name="sigmaS"        type="int"  value="20"    />
+		<param name="sigmaR"        type="int"  value="20"    />
+		<param name="igThre"        type="int"  value="20"    />
+	</node>
+</launch>
